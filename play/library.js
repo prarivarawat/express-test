@@ -18,4 +18,4 @@ console.log({newString});
 newString = newString.split("").reverse().join();//10,000
 return newString;
 };
-module.exports={numberFormetter};
+module.exports={numberFormatter};

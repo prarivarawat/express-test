@@ -17,6 +17,6 @@ const numberFormatter =(num)=>{
 // console.log({newString});
 // newString = newString.split("").reverse().join();//10,000
 // return newString;
-return Number(num).tolocaleString();
+return Number(num).toLocaleString();
 };
-module.exports={numberFormetter};
+module.exports={numberFormatter};

@@ -1,9 +1,10 @@
 {
   "name": "express-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "0. creat index.js file\r 1.start  with npm init -y command\r 2.npm i express \r 3. update script with start:\"node index.js\"\r 4. add .gitignore file and add node_modules line inside it",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "start": "node index.js"
   },
   "keywords": [],
@@ -12,7 +13,7 @@
   "dependencies": {
     "express": "^4.18.2"
   },
-  "devDependencies":{
-    "nodemon":"^3.0.3"
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
